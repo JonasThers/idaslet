@@ -20,5 +20,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
+}
+
+h2 {
+    color: var(--white);
 }
 </style>
