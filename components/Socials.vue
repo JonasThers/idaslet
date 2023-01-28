@@ -7,7 +7,7 @@
       class="link"
       target="_blank"
     >
-      <img :src="social.img" />
+      <img :src="social.img" :alt="social.alt" />
     </a>
   </div>
 </template>
