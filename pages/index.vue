@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar />
+    <Header />
     <Home />
     <About />
     <Footer />
@@ -10,10 +10,10 @@
 <script>
 import About from "../components/About.vue";
 import Footer from "../components/Footer.vue";
-import Navbar from "../components/Navbar.vue";
+import Header from '../components/Header.vue';
 
 export default {
   name: "IndexPage",
-  components: { About, Footer },
+  components: { About, Footer, Header },
 };
 </script>

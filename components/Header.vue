@@ -1,20 +1,20 @@
 <template>
-    <nav>
+    <header class="header">
         <h1>Idaslet</h1>
         <Socials />
-    </nav>
+    </header>
 </template>
 
 <script>
 import Socials from './Socials.vue';
 
 export default {
-    name: 'Navbar',
+    name: 'Header',
 }
 </script>
 
 <style scoped>
-nav {
+.header {
     width: 100%;
     display: flex;
     position: fixed;
