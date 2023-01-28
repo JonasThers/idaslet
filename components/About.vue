@@ -1,7 +1,8 @@
 <template>
   <section class="about">
     <div class="about__description">
-      <p>
+      <h3 class="about__description-header">Idaslet is a danish old metal band based in Copenhagen</h3>
+      <p class="about__description-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat
         enim ac orci efficitur, eget pulvinar enim dapibus. Suspendisse blandit
         eu ipsum porta scelerisque. Nullam tempor turpis at commodo vestibulum.
@@ -39,7 +40,13 @@ export default {
   gap: 3rem;
 }
 
-.about__description p {
+.about__description-header {
+  color: var(--white);
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.about__description-text {
     line-height: 1.5rem;
     color: var(--white);
 }
