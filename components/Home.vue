@@ -1,11 +1,23 @@
 <template>
-  <div>
-    <h2>Idaslet is a Danish folk metal band based in Copenhagen</h2>
-  </div>
+  <div class="hero" />
 </template>
 
 <script>
 export default {
-  name: 'Home'
-}
+  name: "Home",
+};
 </script>
+
+<style scoped>
+.hero {
+  height: 100vh;
+  background-image: url(~/static/background-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>

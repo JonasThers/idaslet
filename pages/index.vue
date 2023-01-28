@@ -4,6 +4,13 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  head () {
+    return {
+      bodyAttrs: {
+        class: 'reset-body'
+      }
+    }
+  }
 }
 </script>
