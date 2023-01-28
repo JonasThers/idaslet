@@ -1,7 +1,7 @@
 <template>
   <section class="about">
     <div class="about__description">
-      <h3 class="about__description-header">Idaslet is a danish old metal band based in Copenhagen</h3>
+      <h3 class="about__description-header">Idaslet is a danish folk metal band based in Copenhagen</h3>
       <p class="about__description-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat
         enim ac orci efficitur, eget pulvinar enim dapibus. Suspendisse blandit
