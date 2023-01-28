@@ -1,16 +1,15 @@
 <template>
-  <Home />
+  <div>
+    <Home />
+    <About />
+  </div>
 </template>
 
 <script>
+import About from "../components/About.vue";
+
 export default {
-  name: 'IndexPage',
-  head () {
-    return {
-      bodyAttrs: {
-        class: 'reset-body'
-      }
-    }
-  }
-}
+  name: "IndexPage",
+  components: { About },
+};
 </script>
