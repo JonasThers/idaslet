@@ -42,6 +42,8 @@ export default {
 
 .header__title {
     transition: all .2s ease-in-out;
+    padding-left: 1rem;
+    text-transform: uppercase;
 }
 
 .header--dark {
@@ -50,5 +52,11 @@ export default {
 
 .header__title--white {
     color: var(--white);
+}
+
+@media only screen and (min-width: 768px) {
+    .header__title {
+        font-size: 45px;
+    }
 }
 </style>
