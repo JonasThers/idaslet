@@ -1,19 +1,20 @@
 <template>
-  <div>
+  <Fragment>
     <Header />
     <Home />
     <About />
     <Footer />
-  </div>
+  </Fragment>
 </template>
 
 <script>
+import { Fragment } from 'vue-fragment'
 import About from "../components/About.vue";
 import Footer from "../components/Footer.vue";
 import Header from '../components/Header.vue';
 
 export default {
   name: "IndexPage",
-  components: { About, Footer, Header },
+  components: { About, Footer, Header, Fragment },
 };
 </script>
