@@ -1,23 +1,20 @@
 <template>
   <section class="about">
     <div class="about__description">
-      <h3 class="about__description-header">Idaslet is a danish folk metal band based in Copenhagen</h3>
+      <h3 class="about__description-header">
+        Idaslet is a danish folk metal band based in Copenhagen
+      </h3>
       <p class="about__description-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat
-        enim ac orci efficitur, eget pulvinar enim dapibus. Suspendisse blandit
-        eu ipsum porta scelerisque. Nullam tempor turpis at commodo vestibulum.
-        Proin et nisi leo. Maecenas euismod consequat lobortis. Integer mollis
-        lectus a augue sollicitudin, eget cursus ligula sollicitudin. Vivamus
-        consequat est at felis venenatis, nec elementum ligula porttitor.
-        Curabitur pellentesque dictum tempor. Nulla vehicula turpis dolor, eget
-        porta tellus fringilla ac. Donec risus sem, tempor vel purus non, rutrum
-        viverra urna. Pellentesque sed diam a lacus lobortis volutpat. Integer
-        mattis elementum tempus. Sed nec nulla sit amet sem gravida feugiat sit
-        amet quis lacus. Curabitur ipsum elit, pellentesque ac leo sit amet,
-        rutrum mattis est. In iaculis, lorem et tincidunt venenatis, magna eros
-        congue nulla, ut hendrerit magna risus in nulla. Fusce tellus nunc,
-        commodo sit amet tortor at, aliquet placerat erat. Fusce quis nulla sed
-        lectus aliquam euismod eget ut dui.
+        Idaslet sprouts in the soil of the Danish underground. With their
+        version of folk metal, Idaslet set off on their first viking voyage in
+        2020 with the release of their EP "Lurernes Glammen", and has now set
+        sail for the Danish cities. With roots firmly planted in sagas and folk
+        songs, Idaslet sings Danish stanzas both with growl and beautiful clean
+        vocals.
+      </p>
+      <p class="about__description-text">
+        Accordions and guitars enrich the soundscape with folk melodies, while
+        drums and bass deliver rhythms that invite you to dance and sing along.
       </p>
     </div>
     <div class="about__music">
@@ -47,25 +44,26 @@ export default {
   font-size: 2rem;
 }
 .about__description-text {
-    line-height: 1.5rem;
-    color: var(--white);
+  line-height: 1.5rem;
+  color: var(--white);
+  font-size: 18px;
 }
 
 @media only screen and (min-width: 768px) {
-    .about {
-        padding: 6rem 4rem; 
-    }
+  .about {
+    padding: 6rem 4rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .about {
-        padding: 8rem;
-        flex-direction: row;
-    }
+  .about {
+    padding: 8rem;
+    flex-direction: row;
+  }
 
-    .about__description,
-    .about__music {
-        width: 50%;
-    }
+  .about__description,
+  .about__music {
+    width: 50%;
+  }
 }
 </style>
