@@ -36,7 +36,7 @@ export default {
 .about {
   display: flex;
   flex-direction: column;
-  padding: 6rem 2rem;
+  padding: 2rem;
   gap: 3rem;
 }
 
